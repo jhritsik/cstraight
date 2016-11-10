@@ -1,0 +1,89 @@
+body {
+  font-family: 'Lato', sans-serif; }
+
+#mainContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: auto; }
+  #mainContainer h1 {
+    text-transform: uppercase;
+    font-weight: 300; }
+  #mainContainer h4 {
+    text-transform: uppercase;
+    color: #619845;
+    margin-bottom: 4px; }
+  #mainContainer .h1Section {
+    color: #619845;
+    font-weight: bold; }
+  #mainContainer .cardContainer {
+    background-color: white;
+    border: 1px solid #e4e4e4;
+    width: 200px;
+    min-height: 300px;
+    margin: 50px auto 50px auto;
+    position: relative; }
+    @media screen and (min-width: 600px) {
+      #mainContainer .cardContainer {
+        width: 48%;
+        float: left;
+        margin-left: 10px;
+        min-height: 350px; } }
+    @media screen and (min-width: 1100px) {
+      #mainContainer .cardContainer {
+        width: 250px;
+        float: left;
+        margin-left: 20px; } }
+  #mainContainer .topCircle {
+    width: 90px;
+    height: 50px;
+    background-color: white;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border: 1px solid #e4e4e4;
+    border-bottom: 0;
+    top: -7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute; }
+  #mainContainer .svg {
+    position: absolute;
+    top: -2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 0px solid #e4e4e4;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; }
+  #mainContainer .card {
+    padding: 20px; }
+  #mainContainer p:first-of-type {
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    font-size: 18px;
+    color: #113d56; }
+  #mainContainer p:nth-of-type(2) {
+    color: #8b8b8b; }
+  #mainContainer .button {
+    width: 300px;
+    padding: 20px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto; }
+    @media screen and (min-width: 1100px) {
+      #mainContainer .button {
+        display: inline-block; } }
+  #mainContainer .button.learn {
+    clear: left;
+    background-color: #113d56; }
+    @media screen and (min-width: 1100px) {
+      #mainContainer .button.learn {
+        margin-left: 10px;
+        margin-right: 10px; } }
+  #mainContainer .button.apply {
+    background-color: #0c8343; }
+
+/*# sourceMappingURL=project.css.map */
